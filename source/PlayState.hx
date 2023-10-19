@@ -14,7 +14,7 @@ class PlayState extends FlxState
 	override public function create()
 	{
 		font = FlxBitmapFont.fromAngelCode("assets/images/small_font.png", "assets/images/small_font.xml");
-		font.appendFrames(FlxAtlasFrames.fromSparrow("assets/images/glyphs.png", "assets/images/glyphs.xml"));
+		font.appendGlyphs(FlxAtlasFrames.fromSparrow("assets/images/glyphs.png", "assets/images/glyphs.xml"));
 
 		text = new FlxBitmapText(5, 5,
 			"Hello, World!\n \nPeep your {{eye}}{{eye}} on this!\n \nDo you know how many {{bomb}}s you have left?\n \nThanks for playing! {{heart}}!", font);
