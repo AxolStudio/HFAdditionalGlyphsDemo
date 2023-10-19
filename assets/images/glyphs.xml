@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="glyphs">
+	<SubTexture name="bomb" x="10" y="0" width="8" height="10" frameX="-1" frameY="-0" frameWidth="10" frameHeight="10"/>
+	<SubTexture name="eye" x="0" y="0" width="9" height="7" frameX="-0" frameY="-0" frameWidth="9" frameHeight="7"/>
+	<SubTexture name="heart" x="0" y="8" width="9" height="10" frameX="-0" frameY="-0" frameWidth="9" frameHeight="10"/>
+</TextureAtlas>
